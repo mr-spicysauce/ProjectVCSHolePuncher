@@ -5,8 +5,6 @@ from time import sleep
 
 import sys
 
-
-
 def address_to_string(address):
 	ip, port = address
 	return ':'.join([ip, str(port)])
